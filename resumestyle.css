@@ -1,0 +1,72 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E0FFFF; /* Light blue background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section */
+.left {
+    flex: 1;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.contactInfo ul,
+.about ul {
+    list-style: none;
+}
+
+.contactInfo .icon {
+    display: inline-block;
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Right Section */
+.right {
+    flex: 2;
+    padding: 20px;
+}
+
+h3.title,
+h2.title2 {
+    margin-bottom: 10px;
+    color:green;
+}
+
+.about p,
+.about ul li {
+    margin-bottom: 10px;
+}
+
+/* Skills Progress Bar */
+.percent div {
+    height: 5px;
+    background-color: red;
+    margin-top: 5px;
+}
